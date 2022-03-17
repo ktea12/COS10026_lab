@@ -48,15 +48,16 @@
   <label>MySQL<input type ="checkbox" name="things[]" value="sql" /></label>
   <br><br>
    <label for="desc">Description of Issue</label><br><br>
-    <input type="textarea" id="desc" name="desc" placeholder="Write description of your problem here..." size="40" pattern="[A-Za-z0-9]"><br><br>
+    <textarea id="desk" name="desk" rows="4" cols="40" placeholder="Write description of your problem here..."></textarea>
+    <br><br>
 
   </fieldset>
 
   <fieldset><legend>Preferred Date/Time</legend>
-      <label for="appdate">Date</label>
-      <input type="date" name="appdate" id="appdate" placeholder="dd-mm-yyyy" pattern="(\d{2}/\d{2}/\d{4})"><br><br>
+      <label for="date">Date</label>
+      <input type="date" name="date" id="date" placeholder="dd/mm/yyyy" pattern="(\d{2}/\d{2}/\d{4})"><br><br>
       <label for="apptime">Time</label>   
-      <input type="time" name="apptime" id="apptime" placeholder="hh:mm" pattern="([01]?[0-9]|2[0-3]):[0-5][0-9]">
+      <input type="time" name="time" id="time" placeholder="hh:mm" pattern="([01]?[0-9]|2[0-3]):[0-5][0-9]">
   </fieldset>
   <input type="submit" value="Book"/>
   <input type="reset" value="Reset form"/>
