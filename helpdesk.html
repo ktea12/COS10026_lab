@@ -9,7 +9,7 @@
 </head>
 
 <body>
-<img src="helpdesk_logo.png" alt="Help Desk Logo">
+<img src="logo.png" alt="Help Desk Logo">
 <h1>CWA Help Desk Appointment</h1>
 <p>The Help Desk is located in ATC620. Open 10:30 to 19:00 Monday to Friday</p>
 <p>Check Blackboard for when CWA tutors will be there.</p>
@@ -29,9 +29,23 @@
     <label for="unit2">COS60004</label>
     <input type="radio" name="unit3" value="COS60007" id="COS60007">
     <label for="unit3">COS60007</label>
+<br>
+<label for="tutor">Your Tutor</label>
+<select name="tutor" id="tutor">
+<option value="">Please Select</option>
+<option value="grace">Grace Tao</option>
+<option value="zdong">Zeqian Dong</option>
+<option value="zhou">Jingwen Zhou</option>
+</select>
 </fieldset>
 
 <fieldset><legend>Issue</legend>
+<label>HTML<input type ="checkbox" name="things[]" value="html" checked  /></label>
+<label>CSS<input type ="checkbox" name="things[]" value="css" /></label>
+<label>JavaScript<input type ="checkbox" name="things[]" value="js" /></label>
+<label>PHP<input type ="checkbox" name="things[]" value="php" /></label>
+<label>MySQL<input type ="checkbox" name="things[]" value="sql" /></label>
+
 
 </fieldset>
 
