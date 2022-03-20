@@ -24,11 +24,11 @@
   </fieldset>
 
   <fieldset><legend>Your unit</legend>
-      <input type="radio" name="unit" value="COS10011" id="cos10011" required="required">
+      <input type="radio" name="unit" value="COS10011" id="unit" required="required">
       <label for="unit">COS10011</label>
       <input type="radio" name="unit" value="COS60004" id="cos60004">
       <label for="unit">COS60004</label>
-      <input type="radio" name="unit" value="COS60007" id="COS60007">
+      <input type="radio" name="unit" value="COS60007" id="cos60007">
       <label for="unit">COS60007</label>
   <br><br>
   <label for="tutor">Your Tutor</label>
@@ -48,16 +48,16 @@
   <label>MySQL<input type ="checkbox" name="things[]" value="sql" /></label>
   <br><br>
    <label for="desc">Description of Issue</label><br><br>
-    <textarea id="desk" name="desk" rows="4" cols="40" placeholder="Write description of your problem here..."></textarea>
+    <textarea id="desc" name="desc" rows="4" cols="40" placeholder="Write description of your problem here..."></textarea>
     <br><br>
 
   </fieldset>
 
   <fieldset><legend>Preferred Date/Time</legend>
       <label for="date">Date</label>
-      <input type="date" name="date" id="date" placeholder="dd/mm/yyyy" pattern="(\d{2}/\d{2}/\d{4})"><br><br>
-      <label for="apptime">Time</label>   
-      <input type="time" name="time" id="time" placeholder="hh:mm" pattern="([01]?[0-9]|2[0-3]):[0-5][0-9]">
+      <input type="text" name="date" id="date" placeholder="dd/mm/yyyy" pattern="(\d{2}/\d{2}/\d{4})"><br><br>
+      <label for="time">Time</label>   
+      <input type="text" name="time" id="time" placeholder="00:00" pattern="([01]?[0-9]|2[0-3]):[0-5][0-9]">
   </fieldset>
   <input type="submit" value="Book"/>
   <input type="reset" value="Reset form"/>
