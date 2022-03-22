@@ -16,7 +16,7 @@
 <form method="post" action="https://mercury.swin.edu.au/it000000/formtest.php">
   <fieldset><legend>Student details</legend>
     <label for="studentid">Student ID</label>
-    <input type="text" name="studentid" id="studentid" size="10" pattern="d{7}|d{10}" required="required"><br><br>
+    <input type="text" name="studentid" id="studentid" size="10" pattern="\d{7}|\d{10}" required="required"><br><br>
     <label for="gName">Given Name</label>
     <input type="text" name="gName" id="gName" maxlength="15" size="10" pattern="[A-Za-z]" required="required">   
     <label for="fName">Family Name</label>
