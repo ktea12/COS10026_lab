@@ -1,7 +1,21 @@
 /* 
-filename: [your name] 
-author: [your name] 
-created: [enter date] 
-last modified: [enter date] 
-description: [html files it refers to (if known)] 
+filename: Qinthara Lianaputri
+author: Qinthara Lianaputri
+created: 21 March 2022
+last modified: 22 March 2022
+description: lab04.html
 */ 
+
+* {
+    font-family: Calibri, sans-serif;
+    color: #2F4F4F;
+}
+h1 {
+    color: purple;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.2em 0.6em;
+    border: 4px solid #ccc;
+}
