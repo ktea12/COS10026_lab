@@ -7,7 +7,8 @@
   <meta name="author" content="A Lecturer"  />
   <title>CSS Layout</title>
   <!-- References to external CSS files -->
- 
+  <link href="styles/layout.css" rel="stylesheet" />
+  <link href="styles/dl.css" rel="stylesheet" />
   
 </head>
 <!-- This is a comment. Indenting child elements makes the markup much more readable -->
@@ -15,14 +16,13 @@
    <header>
 		<h1>HTML 5 Basic Content Elements with CSS Layout</h1>
     </header> 
-	<nav>
-        <p class="menu"><a href="#headings">Heading and Paragraphs</a></p> 
-		<p class="menu"><a href="#sc">Special Characters</a> </p> 
-		<p class="menu"><a href="#lists">Lists</a></p> 
-		<p class="menu"><a href="#tables">Tables</a></p> 
-		<p class="menu"><a href="#images">Images</a></p> 
-		<p class="menu"><a href="#hyperlinks">Hyperlinks</a></p> 
-		
+	<nav> 
+	<p class="menu"><a href="#headings">Heading and Paragraphs</a></p> 
+	<p class="menu"><a href="#sc">Special Characters</a> </p>
+	<p class="menu"><a href="#lists">Lists</a></p>
+	<p class="menu"><a href="#tables">Tables</a></p>
+	<p class="menu"><a href="#images">Images</a></p>
+	<p class="menu"><a href="#hyperlinks">Hyperlinks</a></p>
     </nav>
    	<article>   
       <h2>HTML5 Basic Elements</h2>
@@ -73,7 +73,7 @@
 	  <ol>
 			 <li>First item</li>
 			 <li>Second item
-				<ul>
+				<ul class="subitem">
 				   <li>First sub-item</li>
 				   <li>Second sub-item</li>
 				   <li>Third sub-item</li>
@@ -125,12 +125,12 @@
 		  <h2>Hyperlinks</h2>
 		  <p><a href="http://ilearn.swin.edu.au" title="This takes you to Blackboard"> This is a link to an external site Blackboard</a></p>
 		  <p>This is a link to the <a href="#list">List Section </a> of the Web page</p>
-		  <p>This is a link using <a href="mailto:someone@swin.edu.au"> email</a> rather than an http protocol</p> 
+		  <p>This is a link using <a href="mailto:103802047@swin.edu.au"> email</a> rather than an http protocol</p> 
 		</section>
 		<section id="images">
 			<h2 >Images</h2>
 			<figure><figcaption>This thumbnail image is used as a hyperlink to a larger version of the image</figcaption>
-			<a href="images/mycat.jpg">  <img src="images/mycat_small.jpg" alt="Photo of my cat" title="Filesize 222kb " /></a></figure>
+			<a href="styles/images/mycat.jpg">  <img src="styles/images/mycat_small.jpg" alt="Photo of my cat" title="Filesize 222kb " /></a></figure>
 		</section>
       
 	</article>
